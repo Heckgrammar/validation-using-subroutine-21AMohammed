@@ -24,7 +24,7 @@
             username = createUserName(firstName,lastName,age);
             Console.WriteLine($"Username is {username}, you have successfully registered please remember your password");
 
-            //  Test your program with a range of tests to show all validation worksg
+            //  Test your program with a range of tests to show all validation works
             // Show your evidence in the Readme
 
         }
@@ -32,14 +32,17 @@
         {
            
             for (int i = 0; i < name.Length; i++) ;
-             if (i != )
+            int ascii = Convert.ToByte(name[i]);
             // name must be at least two characters and contain only letters
         }
 
         static bool validAge(int age)
         {
-            //age must be between 11 and 18 inclusive
-
+            if (age >= 11 && age <= 18)
+            {
+                return true;
+            }
+            return false;
         }
 
    
