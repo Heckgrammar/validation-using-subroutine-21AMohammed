@@ -56,7 +56,7 @@
             }
 
 
-            // Check password contains a mix of lower case, upper case and non letter characters
+            // Check password contains a mix of lower case, upper case and non letter characters.
             // QWErty%^& = valid
             // QWERTYUi = not valid
             // ab£$%^&* = not valid
