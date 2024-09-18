@@ -24,7 +24,7 @@
             username = createUserName(firstName,lastName,age);
             Console.WriteLine($"Username is {username}, you have successfully registered please remember your password");
 
-            //  Test your program with a range of tests to show all validation works
+            //  Test your program with a range of tests to show all validation worksg
             // Show your evidence in the Readme
 
         }
