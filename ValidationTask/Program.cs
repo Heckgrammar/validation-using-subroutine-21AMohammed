@@ -30,6 +30,9 @@
         }
         static bool ValidName(string name)
         {
+           
+            for (int i = 0; i < name.Length; i++) ;
+             if (i != )
             // name must be at least two characters and contain only letters
         }
 
@@ -43,6 +46,11 @@
         static bool ValidPassword(string password)
         {
             // Check password is at least 8 characters in length
+
+            if (password.Length =< 8)
+            {
+                return false;
+            }
 
 
             // Check password contains a mix of lower case, upper case and non letter characters
@@ -61,6 +69,8 @@
 
         }
         static bool validEmail(string email)
+
+            
         {
             // a valid email address
             // has at least 2 characters followed by an @ symbol
@@ -68,6 +78,10 @@
             // has at least 2 characters after the .
             // contains only one @ and any number of .
             // does not contain any other non letter or number characters
+
+            if (email.Length <)
+
+            
 
         }
         static string createUserName(string firstName, string lastName, int age)
@@ -77,6 +91,12 @@
             // last two characters of last name
             // age
             //e.g. Bob Smith aged 34 would have the username Both34
+
+            int lastlen = lastName.Length;
+
+            string username = firstName.Substring(0,1) + lastName.Substring(lastlen - 1,lastlen - 2) + age;
+            Console.WriteLine(username);
+            return username;
 
 
 
