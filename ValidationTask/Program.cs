@@ -30,9 +30,21 @@
         }
         static bool ValidName(string name)
         {
-           
-            for (int i = 0; i < name.Length; i++) ;
-            int ascii = Convert.ToByte(name[i]);
+            if (name.Length <= 1)
+            {
+                return false;
+            }
+            for (int i = 0; i < name.Length; i++)
+            {
+                int ascii = Convert.ToByte(name[i]);
+                if (ascii >= 65 && ascii <= 90 || ascii >= 97 && ascii <= 122)
+                {
+                    return true;
+                }
+               
+            }
+
+            return false;
             // name must be at least two characters and contain only letters
         }
 
@@ -50,10 +62,11 @@
         {
             // Check password is at least 8 characters in length
 
-            if (password.Length =< 8)
+            if (password.Length <= 8)
             {
                 return false;
             }
+            return true;
 
 
             // Check password contains a mix of lower case, upper case and non letter characters.
@@ -81,8 +94,21 @@
             // has at least 2 characters after the .
             // contains only one @ and any number of .
             // does not contain any other non letter or number characters
+            string rn = "@";
+            string rt = ".";
+            if (email.Length <= 1)
+            {
+                return false;
+            }
+            for (int i = 0; i > email.Length + 1; i++)
+            {
+                if (email.Contains(rn) && email.Contains(rt))
+                {
+                    return true;
+                }
+            } 
 
-            if (email.Length <)
+            
 
             
 
