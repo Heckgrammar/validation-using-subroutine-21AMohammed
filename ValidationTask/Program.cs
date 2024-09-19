@@ -102,7 +102,7 @@
             }
             for (int i = 0; i > email.Length + 1; i++)
             {
-                if (email.Contains(rn) && email.Contains(rt))
+                if (email.Contains(rn) && email.Contains(r))
                 {
                     return true;
                 }
@@ -127,82 +127,6 @@
             Console.WriteLine(username);
             return username;
 
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
-            if (username.Length == 0)
-            {
-                Console.WriteLine("spam");
-            }
 
 
         }
